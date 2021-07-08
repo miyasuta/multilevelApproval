@@ -1,0 +1,19 @@
+{
+  "approvalSteps": [{
+      "id": "mio.fujita.01@gmail.com",
+      "isComplete": false,
+      "decision": "" 
+  },
+    {
+      "id": "mio.fujita.01@gmail.com",
+      "isComplete": false,
+      "decision": "" 
+  }],
+  "nextApprover": {
+      "index": 0,
+      "id": "mio.fujita.01@gmail.com"
+  },
+  "decision": "",
+  "isComplete": false,
+  "finalDecision": ""
+}
