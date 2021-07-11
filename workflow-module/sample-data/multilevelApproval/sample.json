@@ -1,19 +1,28 @@
 {
   "approvalSteps": [{
       "id": "mio.fujita.01@gmail.com",
+      "taskType": "APPROVAL",
       "isComplete": false,
       "decision": "" 
   },
     {
       "id": "mio.fujita.01@gmail.com",
       "isComplete": false,
-      "decision": "" 
+      "decision": "" ,
+      "taskType": "APPROVAL"
   }],
-  "nextApprover": {
+  "nextProcessor": {
       "index": 0,
       "id": "mio.fujita.01@gmail.com"
   },
   "decision": "",
   "isComplete": false,
-  "finalDecision": ""
+  "isApproved": false,
+  "isCancelled": false,
+  "approvalHistory": [{
+      "id": "mio.fujita.01@gmail.com",
+      "taskType": "",
+      "decision": "",
+      "completionDate": ""       
+  }]
 }

@@ -1,0 +1,21 @@
+{
+    "id": "reworktaskform",
+    "schemaVersion": "1.1.0",
+    "name": "ReworkTaskForm",
+    "revision": "1.0",
+    "type": "task",
+    "readOnly": false,
+    "content": [],
+    "decisions": [
+        {
+            "id": "apply",
+            "text": "Apply",
+            "decisionType": "positive"
+        },
+        {
+            "id": "cancel",
+            "text": "Cancel",
+            "decisionType": "negative"
+        }
+    ]
+}
