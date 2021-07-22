@@ -1,4 +1,6 @@
 {
+  "requestId": "", 
+  "requester": "", 
   "approvalSteps": [{
       "id": "mio.fujita.01@gmail.com",
       "taskType": "APPROVAL",

@@ -12,6 +12,7 @@ var history = {
     "id": approvalSteps[index].id,
     "taskType": approvalSteps[index].taskType,
     "decision": approvalSteps[index].decision,
-    "completionDate": new Date()     
+    "comment": approvalSteps[index].comment,
+    "completedAt": new Date()  
 };
 $.context.approvalHistory.push(history);
