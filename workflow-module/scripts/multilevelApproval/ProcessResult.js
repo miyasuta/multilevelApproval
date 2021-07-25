@@ -8,7 +8,7 @@ context sent from UI
 {
     decision: "reject",
     reworkProcessor: {
-        id: "xxx@com",
+        userId: "xxx@com",
         isRequester: true / false
     }
 }

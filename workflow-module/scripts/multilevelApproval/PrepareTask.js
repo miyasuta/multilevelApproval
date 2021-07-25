@@ -9,7 +9,7 @@ for (var i = 0; i < approvalSteps.length; i++) {
 };
 
 var nextProcessor = {
-    id: approvalSteps[nextProcessorIndex].id,
+    userId: approvalSteps[nextProcessorIndex].userId,
     index: nextProcessorIndex
 }
 

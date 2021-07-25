@@ -11,12 +11,12 @@ var index = $.context.nextProcessor.index;
 
 var insertSteps = []
 insertSteps.push({
-    "id": reworkProcessor.id, //previous approver
+    "userId": reworkProcessor.userId, //previous approver
     "taskType": reworkProcessor.isRequester ? "REWORK_REQUESTER" : "REWORK_APPROVER",
     "isComplete": false,
     "decision": ""           
 },{
-    "id": approvalSteps[index].id, //current approver,
+    "userId": approvalSteps[index].userId, //current approver,
     "taskType": "APPROVAL",
     "isComplete": false,
     "decision": ""         

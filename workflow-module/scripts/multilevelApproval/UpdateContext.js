@@ -7,12 +7,12 @@ approvalSteps[index].decision = $.context.decision;
 //update the context
 $.context.approvalSteps = approvalSteps;
 
-//update the history
-var history = {
-    "id": approvalSteps[index].id,
-    "taskType": approvalSteps[index].taskType,
-    "decision": approvalSteps[index].decision,
-    "comment": approvalSteps[index].comment,
-    "completedAt": new Date()  
-};
-$.context.approvalHistory.push(history);
+// //update the history
+// var history = {
+//     "userId": approvalSteps[index].userId,
+//     "taskType": approvalSteps[index].taskType,
+//     "decision": approvalSteps[index].decision,
+//     "comment": approvalSteps[index].comment,
+//     "completedAt": new Date()  
+// };
+// $.context.approvalHistory.push(history);

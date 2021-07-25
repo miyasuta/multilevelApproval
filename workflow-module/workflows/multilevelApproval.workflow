@@ -149,20 +149,13 @@
 		},
 		"09cbe691-fa00-44e6-a651-b7a2d7d62e11": {
 			"classDefinition": "com.sap.bpm.wfs.UserTask",
-			"subject": "Multi Level Approval",
+			"subject": "Multi Level Approval ${context.subject}",
 			"priority": "MEDIUM",
 			"isHiddenInLogForParticipant": false,
 			"supportsForward": false,
-			"userInterface": "sapui5://comsapbpmworkflow.comsapbpmwusformplayer/com.sap.bpm.wus.form.player",
-			"recipientUsers": "${context.nextProcessor.id}",
-			"formReference": "/forms/multilevelApproval/ApprovalTaskForm.form",
-			"userInterfaceParams": [{
-				"key": "formId",
-				"value": "approvaltaskform"
-			}, {
-				"key": "formRevision",
-				"value": "1.0"
-			}],
+			"userInterface": "sapui5://workflowUIservice.demotaskUI/demo.taskUI",
+			"recipientUsers": "${context.nextProcessor.userId}",
+			"userInterfaceParams": [],
 			"id": "usertask1",
 			"name": "ApprovalTask"
 		},
@@ -186,20 +179,13 @@
 		},
 		"3eb8e81f-d386-4271-b780-8a9f5462e39e": {
 			"classDefinition": "com.sap.bpm.wfs.UserTask",
-			"subject": "Multi Level Approval Rework",
+			"subject": "Multi Level Approval Rework ${context.subject}",
 			"priority": "MEDIUM",
 			"isHiddenInLogForParticipant": false,
 			"supportsForward": false,
-			"userInterface": "sapui5://comsapbpmworkflow.comsapbpmwusformplayer/com.sap.bpm.wus.form.player",
-			"recipientUsers": "${context.nextProcessor.id}",
-			"formReference": "/forms/multilevelApproval/ReworkTaskForm.form",
-			"userInterfaceParams": [{
-				"key": "formId",
-				"value": "reworktaskform"
-			}, {
-				"key": "formRevision",
-				"value": "1.0"
-			}],
+			"userInterface": "sapui5://workflowUIservice.demotaskUI/demo.taskUI",
+			"recipientUsers": "${context.nextProcessor.userId}",
+			"userInterfaceParams": [],
 			"id": "usertask2",
 			"name": "ReworkTask"
 		},
